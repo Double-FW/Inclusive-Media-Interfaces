@@ -6,7 +6,7 @@ This guide covers accessibility and usability across television receivers and co
 
 The guidance applies to the product and platform experience, not to the production of programmes. It addresses two connected areas: the usability of devices and interfaces, and the accessibility features and services available through them.
 
-Complexity is a central access risk. Hybrid TV services may combine network setup, accounts and authentication, several content sources, multiple players, and inconsistent interaction models. These demands can exclude older and disabled users, especially where setup and everyday use depend on technical knowledge, precise input, or memory.
+Complexity is a central access risk. Hybrid TV services may combine network setup, accounts and authentication, several content sources, multiple players, and inconsistent interaction models. These demands can exclude people with varied access needs, particularly where setup and everyday use depend on technical knowledge, precise input, or memory.
 
 ## Design for the whole viewing journey
 
@@ -51,11 +51,11 @@ Subtitles, captions, audio description, signing, and other available access serv
 - Make controls easy to find and consistent across live and on-demand services.
 - Support user preferences and explain when they persist or need to be set again.
 - Support searching and filtering for accessible content where the service provides those functions.
-- Make it possible to record accessible content and retain relevant service information.
+- Where recording is available, let people identify recordings with access services and retain relevant service information for playback, where the platform permits.
 
 ### 6. Spoken output and text-to-speech
 
-Spoken interfaces should provide functional access to the same essential tasks as visual interfaces. Spoken output should cover menus and lists, programme guides, content discovery, context, warnings and prompts, settings, playback, and recording controls.
+Spoken-output features should provide access to the same essential tasks as visual interfaces. Spoken output should cover menus and lists, programme guides, content discovery, context, warnings and prompts, settings, playback, and recording controls.
 
 Do not assume that speech is the only nonvisual route or that every person wants spoken output. Make spoken output controllable and provide clear context and feedback.
 
