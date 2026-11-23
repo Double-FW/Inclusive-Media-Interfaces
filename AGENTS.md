@@ -58,6 +58,7 @@ Do not invent missing details. Label assumptions and state what needs verificati
 Retrieve the most specific guide, then follow relevant cross-links:
 
 - TV setup, navigation, remote use, access-service discovery, and spoken output: [Connected_TV.md](Connected_TV.md).
+- Cross-platform TV feature comparisons, documented examples, implementation recommendations, and their evidence limits: [TV_Accessibility_Feature_Reference.md](TV_Accessibility_Feature_Reference.md).
 - Media-specific input flexibility, cognitive demand, feedback, control, and agency: [Accessible_Interactive_Media_Control.md](Accessible_Interactive_Media_Control.md).
 - Physical controls, shared spaces, environmental control, hardware integration, and connected-product ecosystems: [Physical_and_Connected_Product_Control.md](Physical_and_Connected_Product_Control.md).
 - General modality choice, transitions, and semantic structure: [Inclusive Multimodal UX](https://github.com/Double-FW/Inclusive-Multimodal-UX).
@@ -74,7 +75,7 @@ Do not copy a complete specialist guide into this repository. Keep cross-links p
 For a relevant journey:
 
 1. Define the goal, task, stakes, and context.
-2. Check discovery and setup, including whether the person can configure the device and find content, access services, and settings.
+2. Check discovery and setup, including whether the person can configure the device and find content, access services, and settings. Use the TV feature reference to distinguish documented platform examples from design recommendations; verify exact model and software before making product claims.
 3. Check controls, input methods, focus/selection, state, consequences, and feedback.
 4. Check continuity of context and preferences across content, sessions, and devices; do not assume persistence without user control.
 5. Check interruption, error, correction, exit, and recovery.
