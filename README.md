@@ -21,6 +21,7 @@ This repository concerns interface and control experiences. Accessible media pro
 | TV setup, navigation, content discovery, remote interaction, access-service discovery, spoken output, and evaluation | [Connected_TV.md](Connected_TV.md) |
 | Media-specific user control, adjustable interaction, cognitive demand, feedback, and agency | [Accessible_Interactive_Media_Control.md](Accessible_Interactive_Media_Control.md) |
 | Physical controls, environmental control, hardware integration, shared spaces, and connected-product ecosystems | [Physical_and_Connected_Product_Control.md](Physical_and_Connected_Product_Control.md) |
+| Cross-platform TV accessibility feature inventory, implementation examples, and recommendations | [TV_Accessibility_Feature_Reference.md](TV_Accessibility_Feature_Reference.md) |
 
 ## Repository contents
 
@@ -28,6 +29,7 @@ This repository concerns interface and control experiences. Accessible media pro
 - [Connected_TV.md](Connected_TV.md) covers television and connected-TV setup, navigation, remotes, access services, spoken output, documentation, and evaluation.
 - [Accessible_Interactive_Media_Control.md](Accessible_Interactive_Media_Control.md) covers media-specific input flexibility, cognitive demand, context-aware feedback, and agency.
 - [Physical_and_Connected_Product_Control.md](Physical_and_Connected_Product_Control.md) covers physical controls, environmental systems, hardware integration, shared spaces, connected ecosystems, and maintenance.
+- [TV_Accessibility_Feature_Reference.md](TV_Accessibility_Feature_Reference.md) catalogues cross-platform TV accessibility features, source coverage, design methods, techniques, intended individual outcomes, and evidence limits.
 - [LICENSE](LICENSE) contains the repository’s MIT licence.
 
 ## Related public Double-FW guidance
