@@ -34,8 +34,8 @@ Guidance describes design aims and questions to evaluate. It does not establish 
 
 ## Source and migration note
 
-The initial media-interface material is being consolidated from `Connected_TV.md` and `Accessible_Interactive_Media_Control.md` in [Inclusive and Effective Design](https://github.com/Double-FW/Inclusive_and_Effective_Design). Physical and connected product-control material is separated into its own module so it is discoverable without repeating the TV-specific guidance. Preserve source provenance and update the original repository with migration links after the destination content has been reviewed.
+The media-interface guidance was consolidated from `Connected_TV.md` and `Accessible_Interactive_Media_Control.md` in [Inclusive and Effective Design](https://github.com/Double-FW/Inclusive_and_Effective_Design). Physical and connected product-control guidance is maintained in its own module to make hardware, environmental control, and system-integration material easier to find without repeating TV-specific guidance. The source repository has been updated: its original paths now point to the canonical guides here. Use this repository for future media-interface updates and preserve source provenance when revising the material.
 
 ## Status
 
-The repository foundation and initial consolidated guides are available for review. They are practitioner guidance, not a validated standard or assessment tool.
+The consolidated guides are available for use and review. They are practitioner guidance, not a validated standard or assessment tool.
