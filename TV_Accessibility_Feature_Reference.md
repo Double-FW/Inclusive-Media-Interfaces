@@ -80,7 +80,7 @@ In this reference:
 
 **Status:** Documented examples; design recommendation.
 
-**Documented coverage:** Apple TV; Android TV/TalkBack-capable devices; Panasonic television models; Sony BRAVIA models; Samsung television models; Sky Q, Sky Glass and Sky Stream; BT TV/YouView. Exact setup behaviour and availability vary by product and software. (S01–S08, S11–S15)
+**Documented coverage:** Apple TV; Android TV/TalkBack-capable devices; Panasonic television models; Sony BRAVIA models; Samsung television models; Sky Q, Sky Glass and Sky Stream; BT TV/YouView. Exact setup behaviour and availability vary by product and software. (S01–S09, S10–S11, S15, S18–S20)
 
 **Design approach:** Make setup usable without requiring a person to see every screen or already know the sequence. Spoken guidance is an interface access mode, not programme audio description.
 
@@ -92,13 +92,13 @@ In this reference:
 
 **Evidence limits:** Vendor documentation describes varying voice-guidance or screen-reader features; it does not establish that all setup flows start with speech enabled. Default-on setup guidance is a recommendation, not a claim about current platform defaults.
 
-**Sources:** S01–S08, S11–S15.
+**Sources:** S01–S09, S10–S11, S15, S18–S20.
 
 ### F02. Semantic screen-reader access and consistent focus
 
 **Status:** Documented examples; design recommendation.
 
-**Documented coverage:** Apple TV; Android TV; Sony BRAVIA; Samsung TV; Sky Q, Sky Glass and Sky Stream; Freeview Accessible TV Guide; BT TV/YouView. (S01–S08, S10–S14)
+**Documented coverage:** Apple TV; Android TV; Sony BRAVIA; Samsung TV; Sky Q, Sky Glass and Sky Stream; Freeview Accessible TV Guide; BT TV/YouView. (S01, S03, S05–S06, S10–S12, S15, S18–S20)
 
 **Design approach:** Expose the structure and state of the interface so that spoken and other assistive-technology output supports the same meaningful tasks as the visual interface.
 
@@ -110,13 +110,13 @@ In this reference:
 
 **Evidence limits:** Feature availability and implementation differ across models, operating systems, and apps. A platform screen reader does not guarantee that every third-party app is compatible.
 
-**Sources:** S01–S08, S10–S14.
+**Sources:** S01, S03, S05–S06, S10–S12, S15, S18–S20.
 
 ### F03. Adjustable visual presentation
 
 **Status:** Documented examples; design recommendation.
 
-**Documented coverage:** Apple TV and its TV app; Android TV caption settings; Sony BRAVIA; Samsung TV; Freeview Accessible TV Guide; Sky Q, Sky Glass and Sky Stream. (S01–S04, S07–S10, S12–S14)
+**Documented coverage:** Apple TV and its TV app; Android TV caption settings; Sony BRAVIA; Samsung TV; Freeview Accessible TV Guide; Sky Q, Sky Glass and Sky Stream. (S01–S06, S10–S12, S18–S20)
 
 **Design approach:** Let people change the visual presentation to suit viewing distance, contrast needs, lighting, and visual preferences without hiding information or breaking the interface.
 
@@ -128,7 +128,7 @@ In this reference:
 
 **Evidence limits:** Specific options and supported applications vary. A setting in the operating system may not affect every application or video overlay.
 
-**Sources:** S01–S04, S07–S10, S12–S14.
+**Sources:** S01–S06, S10–S12, S18–S20.
 
 ### F04. Reduced motion and preview control
 
@@ -152,7 +152,7 @@ In this reference:
 
 **Status:** Design recommendation; cited platform documentation does not establish universal support for both views.
 
-**Documented coverage:** Freeview and Ofcom sources describe electronic programme guide access and accessibility, but the reviewed sources do not verify that every named platform offers both list and grid modes. (S09–S10)
+**Documented coverage:** Freeview and Ofcom sources describe electronic programme guide access and accessibility, but the reviewed sources do not verify that every named platform offers both list and grid modes. (S12–S14, S25)
 
 **Design approach:** Offer more than one way to scan schedule information because a time-by-channel grid and a linear list impose different visual, spatial, and navigation demands.
 
@@ -164,13 +164,13 @@ In this reference:
 
 **Evidence limits:** This is a cross-platform recommendation. Do not state that a particular platform supports both views unless verified on the target device and software version.
 
-**Sources:** S09–S10; design synthesis.
+**Sources:** S12–S14, S25; design synthesis.
 
 ### F06. Find and filter content by access-service availability
 
 **Status:** Documented examples; design recommendation.
 
-**Documented coverage:** Freeview Accessible TV Guide; Sky Q, Sky Glass, Sky Stream and Sky+; BT TV/YouView. (S09, S12–S15)
+**Documented coverage:** Freeview Accessible TV Guide; Sky Q, Sky Glass, Sky Stream and Sky+; BT TV/YouView. (S12, S15, S18–S21)
 
 **Design approach:** Make service availability visible during content discovery so a person can choose what to watch before starting playback.
 
@@ -182,13 +182,13 @@ In this reference:
 
 **Evidence limits:** This concerns interface discovery and control only. It does not set requirements for captions, subtitles, audio-description, or signing production, editorial quality, or delivery. See specialist repositories in Scope and boundaries.
 
-**Sources:** S09, S12–S15.
+**Sources:** S12, S15, S18–S21.
 
 ### F07. Captions/subtitles enabled by default, with direct opt-out
 
 **Status:** Design recommendation.
 
-**Documented coverage:** Platforms in scope document caption/subtitle settings and controls, including Apple TV, Android TV, Sony BRAVIA, Samsung TV, Freeview, BT TV/YouView, and Sky products. The reviewed documentation does not establish a universal default-on behaviour. (S02–S04, S07–S09, S11–S14)
+**Documented coverage:** Platforms in scope document caption/subtitle settings and controls, including Apple TV, Android TV, Sony BRAVIA, Samsung TV, Freeview, BT TV/YouView, and Sky products. The reviewed documentation does not establish a universal default-on behaviour. (S02–S06, S11–S12, S15, S18–S20)
 
 **Design approach:** Reduce the effort required to obtain text access while preserving personal choice and a direct way to switch it off.
 
@@ -200,7 +200,7 @@ In this reference:
 
 **Evidence limits:** This is an explicit design recommendation, not a description of current platform defaults or a guarantee that a programme offers captions/subtitles. Do not infer content quality or coverage from the setting. Route content and delivery detail to [Closed Caption Subtitles](https://github.com/Double-FW/Closed-Caption-Subtitles).
 
-**Sources:** S02–S04, S07–S09, S11–S14; design synthesis.
+**Sources:** S02–S06, S11–S12, S15, S18–S20; design synthesis.
 
 ### F08. Dedicated physical controls for captions/subtitles and audio description
 
