@@ -1,0 +1,28 @@
+{
+  "source_repository": "Double-FW/Inclusive-Media-Interfaces",
+  "destination_dataset": "GarethFW/Inclusive_Media_Interfaces",
+  "dataset_version": "1.0.0",
+  "document_files": [
+    "AGENTS.md",
+    "README.md",
+    "Connected_TV.md",
+    "Accessible_Interactive_Media_Control.md",
+    "Physical_and_Connected_Product_Control.md",
+    "TV_Accessibility_Feature_Reference.md"
+  ],
+  "chunk_files": [
+    "Connected_TV.md",
+    "Accessible_Interactive_Media_Control.md",
+    "Physical_and_Connected_Product_Control.md",
+    "TV_Accessibility_Feature_Reference.md"
+  ],
+  "source_files": [
+    "AGENTS.md",
+    "README.md",
+    "Connected_TV.md",
+    "Accessible_Interactive_Media_Control.md",
+    "Physical_and_Connected_Product_Control.md",
+    "TV_Accessibility_Feature_Reference.md",
+    "LICENSE"
+  ]
+}

@@ -59,6 +59,12 @@ The media-interface guidance was consolidated from [Connected_TV.md](https://git
 
 Use this repository for future media-interface updates and preserve source provenance when revising consolidated material. Linked and quoted source content remains subject to its own attribution and licence terms; this repository’s MIT licence does not change those terms.
 
+## Hugging Face dataset sync
+
+The repository is the authoring source for the [Inclusive Media Interfaces dataset](https://huggingface.co/datasets/GarethFW/Inclusive_Media_Interfaces). A curated export provides complete guidance documents and heading-level sections with source revision metadata. The two views overlap by design.
+
+GitHub Actions syncs approved changes from the default branch weekly and after changes to the curated files. See [huggingface/SETUP.md](huggingface/SETUP.md) for token setup, scope, and workflow details. The Hugging Face dataset is a derived copy; GitHub remains the source of truth.
+
 ## Licence
 
 This repository uses the MIT licence, as stated in [LICENSE](LICENSE).

@@ -1,0 +1,53 @@
+name: Sync Inclusive Media Interfaces dataset
+
+on:
+  push:
+    paths:
+      - "AGENTS.md"
+      - "README.md"
+      - "LICENSE"
+      - "Connected_TV.md"
+      - "Accessible_Interactive_Media_Control.md"
+      - "Physical_and_Connected_Product_Control.md"
+      - "TV_Accessibility_Feature_Reference.md"
+      - "huggingface/export-config.json"
+      - "huggingface/requirements.txt"
+      - "huggingface/SETUP.md"
+      - "scripts/sync_huggingface.py"
+      - ".github/workflows/huggingface-sync.yml"
+  schedule:
+    - cron: "23 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: inclusive-media-interfaces-huggingface-sync
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'Double-FW/Inclusive-Media-Interfaces' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      HF_DATASET_ID: GarethFW/Inclusive_Media_Interfaces
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - name: Install publishing dependency
+        run: python -m pip install -r huggingface/requirements.txt
+      - name: Check fixed destination and validate export
+        run: python scripts/sync_huggingface.py --mode check --dataset-id "$HF_DATASET_ID"
+      - name: Build dataset files
+        run: python scripts/sync_huggingface.py --mode build --output "$RUNNER_TEMP/inclusive-media-interfaces-dataset" --dataset-id "$HF_DATASET_ID"
+      - name: Publish to the existing dataset
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python scripts/sync_huggingface.py --mode publish --folder "$RUNNER_TEMP/inclusive-media-interfaces-dataset" --dataset-id "$HF_DATASET_ID"
