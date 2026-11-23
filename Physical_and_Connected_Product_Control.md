@@ -23,7 +23,7 @@ Make setup, maintenance, and repair manageable for the person and their support 
 
 ## 3. Connect controls to system state
 
-A control system should give timely feedback about what changed. Prefer supported, direct, two-way digital interfaces over fragile arrangements that imitate infrared remote signals or chain hardware without a reliable state response.
+A control system should give timely feedback about what changed. Where an appropriate, supported two-way interface is available, prefer it to fragile arrangements that imitate infrared remote signals or chain hardware without a reliable state response.
 
 - Avoid one-way control where the controller cannot learn whether the action succeeded or what state the product is in.
 - Return dynamic state to the controller where the system supports it.
@@ -62,6 +62,10 @@ Record the product and software versions, control pathway, use context, evidence
 5. Can the person use the product without unnecessary dependence on another person?
 6. Can the connected system be maintained without fragile hardware workarounds?
 7. Are privacy, security, and shared-space preferences clear?
+
+## Terminology and evidence
+
+Use [Terminology and Principles](https://github.com/Double-FW/Terminology-and-Principles), checking the relevant entry’s status and scope. Record device and system state as observed; do not infer user preference or successful access from a working connection alone.
 
 ## Related guidance
 
