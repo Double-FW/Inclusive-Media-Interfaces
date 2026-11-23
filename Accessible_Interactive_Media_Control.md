@@ -4,7 +4,7 @@
 
 This guide covers user control of television, streaming, and other interactive media experiences. It focuses on media-specific interaction requirements and routes broader physical-device, environmental-control, and system-integration guidance to [Physical and Connected Product Control](Physical_and_Connected_Product_Control.md).
 
-The source guidance was abstracted from user-centred development work. Organisational, research-body, individual, and study references were removed in that source; this guide therefore presents transferable themes, not a claim of direct evidence from a named study. Add source provenance if the underlying evidence is restored or separately documented.
+**Provenance:** The available source material refers to user-centred development work but does not identify its organisation, research body, participants, methods, or publications. Treat this guide as transferable design themes, not evidence from a named study. Do not reconstruct missing citations or participant details. Add references only if the underlying sources are recovered and verified.
 
 ## Design requirements
 
@@ -59,7 +59,11 @@ People should be able to explore and control media without routine dependence on
 
 ## Expected outcomes
 
-A well-designed interactive media experience supports clear cause and effect, adjustable interaction, manageable cognitive demand, context-aware feedback, dignity, agency, and sustainable everyday use. Evaluate whether the system supports adoption, sustained use, and satisfaction alongside clear cause and effect, adjustable interaction, manageable cognitive demand, context-aware feedback, dignity, agency, and sustainable everyday use. These are design aims, not evidence that a particular product has achieved them.
+A well-designed interactive media experience aims to support adoption, sustained use, satisfaction, clear cause and effect, adjustable interaction, manageable cognitive demand, context-aware feedback, dignity, agency, and sustainable everyday use. These are design aims, not evidence that a particular product has achieved them.
+
+## Terminology and evidence
+
+Use [Terminology and Principles](https://github.com/Double-FW/Terminology-and-Principles), checking the relevant entry’s status and scope. Keep participant report, observed behaviour, interpretation, hypothesis, and synthetic material distinct. Do not treat design aims or agent review as user evidence or conformance.
 
 ## Related guidance
 
