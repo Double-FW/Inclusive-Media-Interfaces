@@ -1,4 +1,4 @@
-# Accessible Video Controls — Organisation-Agnostic Draft
+# Accessible Video Controls — Organisation-Agnostic
 
 **Status:** Review draft  
 **Purpose:** Organisation-agnostic adaptation of guidance about custom HTML5 video controls. This is a draft for review, not an approved standard or a conformance assessment.
