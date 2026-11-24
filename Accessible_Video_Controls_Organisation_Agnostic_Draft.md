@@ -136,12 +136,15 @@ Do not make controls accessible only on hover. If controls fade or hide during p
 - Native controls work before custom controls are ready and if enhancement fails.
 - Every custom control has an understandable name, role, and current state.
 - Keyboard users can reach and operate every function without becoming trapped.
+- The tabbing order starts with play/pause then mute/unmute then the rest of the controls using a visual tabbing order.
 - Focus is visible and is not obscured by overlays or fading controls.
 - Play/pause and mute/unmute states remain accurate throughout playback.
 - The timeline is labelled, keyboard operable, and exposes understandable position information.
 - Target sizes, layout, and focus styling work at relevant viewport sizes and zoom levels.
 - Controls remain perceivable in high-contrast or forced-colours modes.
+- On/Off controls for Captions and Audio Description must be persistently in the main interface and not in a dropdown or menu.
 - Captions and other supplied access services are discoverable and selectable.
+- Caption display must support all aspects of best practice (https://github.com/Double-FW/Closed-Caption-Subtitles/blob/main/Closed_Caption_Subtitle_Guidelines.md).
 - Autoplay does not start unexpectedly; when explicitly enabled, playback begins muted and can be stopped or muted immediately.
 - The player is manually checked with relevant browsers, devices, assistive technologies, and alternative input methods.
 
