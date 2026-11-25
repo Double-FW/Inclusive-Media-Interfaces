@@ -1,7 +1,6 @@
 # Accessible Interactive Media Control
 
 ## Purpose
-
 This guide covers user control of television, streaming, and other interactive media experiences. It focuses on media-specific interaction requirements and routes broader physical-device, environmental-control, and system-integration guidance to [Physical and Connected Product Control](Physical_and_Connected_Product_Control.md).
 
 **Provenance:** The available source material refers to user-centred development work but does not identify its organisation, research body, participants, methods, or publications. Treat this guide as transferable design themes, not evidence from a named study. Do not reconstruct missing citations or participant details. Add references only if the underlying sources are recovered and verified.
@@ -68,5 +67,6 @@ Use [Terminology and Principles](https://github.com/Double-FW/Terminology-and-Pr
 ## Related guidance
 
 - [Connected TV](Connected_TV.md) covers TV setup, navigation, remote interaction, access-service discovery, spoken output, documentation, and evaluation.
+- [Accessible Web Video Player Controls](Accessible_Web_Video_Player_Controls.md) covers technical design and review of custom web video player controls.
 - [Physical and Connected Product Control](Physical_and_Connected_Product_Control.md) covers physical controls, environmental systems, hardware integration, and control ecosystems.
 - [Inclusive Multimodal UX](https://github.com/Double-FW/Inclusive-Multimodal-UX) covers general cross-modal principles.

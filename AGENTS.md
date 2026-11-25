@@ -60,6 +60,7 @@ Retrieve the most specific guide, then follow relevant cross-links:
 - TV setup, navigation, remote use, access-service discovery, and spoken output: [Connected_TV.md](Connected_TV.md).
 - Cross-platform TV feature comparisons, documented examples, implementation recommendations, and their evidence limits: [TV_Accessibility_Feature_Reference.md](TV_Accessibility_Feature_Reference.md).
 - Media-specific input flexibility, cognitive demand, feedback, control, and agency: [Accessible_Interactive_Media_Control.md](Accessible_Interactive_Media_Control.md).
+- Custom web video player controls, semantics, keyboard and assistive input, playback feedback, and review: [Accessible_Web_Video_Player_Controls.md](Accessible_Web_Video_Player_Controls.md).
 - Physical controls, shared spaces, environmental control, hardware integration, and connected-product ecosystems: [Physical_and_Connected_Product_Control.md](Physical_and_Connected_Product_Control.md).
 - General modality choice, transitions, and semantic structure: [Inclusive Multimodal UX](https://github.com/Double-FW/Inclusive-Multimodal-UX).
 - Accessible media planning and production: [Accessible Film, TV and Video Content Production Management](https://github.com/Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management).
